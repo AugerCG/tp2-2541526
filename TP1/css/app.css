@@ -64,7 +64,7 @@ h6 {
 }
 tr,
 td {
-    border: solid 3px gray;
+    border: solid 3px orange;
     padding-left: 10px;
     padding-right: 10px;
     justify-content: center;
@@ -105,8 +105,8 @@ form {
 .galerie {
     display: inline-block;
     padding: 20px 70px;
-    background-color: darkred;
-    color: white;
+    background-color: aquamarine;
+    color: blue;
     border-radius: 6px;
 }
 .galerie:hover {
