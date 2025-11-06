@@ -9,10 +9,10 @@ Voici comment faire un changement sur ce projet, et l’envoyer sur GitHub.
 4. Pusher les modifications en appuyant sur le bouton Push sur l'aire principale.
 5. Voilà!
 
-![]()
-![]()
-![]()
-![]()
+![VSC](/TP1/images.docs/Capture%20d'écran%202025-11-06%20161440.png)
+![NomCommit](/TP1/images.docs/Capture%20d'écran%202025-11-06%20161621.png)
+![Commit](/TP1/images.docs/Capture%20d'écran%202025-11-06%20161808.png)
+![Push](/TP1/images.docs/Capture%20d'écran%202025-11-06%20161714.png)
 
 ## Contributeurs
 * [Guillaume Auger Caissy](https://github.com/AugerCG)-Auteur Principal
