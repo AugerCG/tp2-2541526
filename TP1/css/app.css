@@ -1,0 +1,158 @@
+html {
+    background: lightgrey;
+    padding: 5rem;
+}
+.menu {
+    display: flex;
+    flex-wrap: nowrap;
+    padding-top: 2.5rem;
+    height: 100px;
+    text-decoration: none;
+    padding-bottom: 3rem;
+}
+.logo {
+    width: 50px;
+    height: 50px;
+}
+h6 {
+    padding-top: 1.1rem;
+    flex: 1;
+    padding-left: 40px;
+    font-size: 18px;
+}
+.hyperlinks {
+    display: flex;
+    padding: 1rem;
+    gap: 20px;
+    padding-right: 4rem;
+    text-decoration: none;
+}
+.main {
+    display: grid;
+    grid-template-columns: 3fr 2fr;
+    grid-template-rows: 1fr;
+    align-self: center;
+    gap: 5rem;
+    padding-bottom: 5rem;
+    padding-top: 5rem;
+}
+.circuit {
+    width: 500px;
+    height: 275px;
+    grid-column: 2;
+    grid-row: 1;
+}
+.slogan {
+    grid-column: 1;
+    grid-row: 1;
+    padding-top: 1rem;
+}
+.info {
+    grid-column: 1;
+    grid-row: 1;
+    padding-top: 7rem;
+}
+.produits {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 7rem;
+}
+.source {
+    display: flex;
+    height: 30px;
+}
+tr,
+td {
+    border: solid 3px gray;
+    padding-left: 10px;
+    padding-right: 10px;
+    justify-content: center;
+    align-items: center;
+}
+th {
+    background-color: darkred;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.engagements {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 3rem;
+}
+footer {
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
+    justify-content: center;
+    gap: 7px;
+    padding-top: 1rem;
+}
+a {
+    text-decoration: none;
+}
+form {
+    display: grid;
+    width: 75%;
+    grid-template-rows: 1fr;
+    grid-template-columns: auto 1fr;
+    height: 100%;
+    row-gap: 10px;
+    column-gap: 100px;
+    margin: auto;
+}
+.galerie {
+    display: inline-block;
+    padding: 20px 70px;
+    background-color: darkred;
+    color: white;
+    border-radius: 6px;
+}
+.galerie:hover {
+    background-color: red;
+}
+a:hover {
+    color: gray;
+}
+.ImgGalerie {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+}
+.ImgGalerie img {
+    width: 100%;
+    height: 100%;
+    border-radius: 8px;
+}
+.picturex2 {
+    grid-row-start: 1;
+    grid-column-start: 2;
+    grid-column: span 2;
+    grid-row: span 2;
+}
+.send {
+    display: inline-block;
+    padding: 5px 400px;
+    background-color: darkred;
+    color: white;
+    border-radius: 6px;
+    grid-column: span 2;
+}
+.send:hover {
+    background-color: red;
+}
+.message {
+    height: 7rem;
+}
+input[type="checkbox"] {
+    width: 15px;
+    height: 15px;
+}
+p {
+    margin: 0 auto;
+    margin-bottom: 3rem;
+}
+input {
+    border-radius: 6px;
+}
